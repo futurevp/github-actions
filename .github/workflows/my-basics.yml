@@ -1,6 +1,14 @@
-name: CI
+#------------------------------------------------------
+# Github Actions part-1-basics
+#
+# Copyright (c) Vitalii Pekshev
 
-on: [push]
+name: assignment-devops
+
+on: 
+  push:
+    branches:
+      - master
 
 jobs:
   build:
